@@ -6,7 +6,7 @@ Developers are often tasked with creating interfaces that make it easy for non-d
 
 Video of working app:
 
-https://media.giphy.com/media/MXL5s7yRPC1cGVMWJU/giphy.gif
+![Alt Text](https://media.giphy.com/media/MXL5s7yRPC1cGVMWJU/giphy.gif)
 
 * **Features**:
 
