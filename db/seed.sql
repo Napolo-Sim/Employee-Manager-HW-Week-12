@@ -30,4 +30,8 @@ VALUES
     ('Kunal', 'Singh', 5, NULL),
     ('Malia', 'Brown', 6, 5),
     ('Sarah', 'Lourd', 7, NULL),
-    ('Tom', 'Allen', 8, 7);
+    ('Carter', 'Stan', 8, NULL),
+    ('Dylan', 'Mcfinegan', 8, 4),
+    ('Arthur', 'Verdansk', 6, NULL),
+    ('Ricky', 'Kilterswig', 3, 2),
+    ('Tom', 'Allen', 1, 7);
