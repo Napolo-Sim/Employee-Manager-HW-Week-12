@@ -6,7 +6,7 @@ Developers are often tasked with creating interfaces that make it easy for non-d
 
 Video of working app:
 
-![Database Schema](Assets/schema.png)
+https://media.giphy.com/media/MXL5s7yRPC1cGVMWJU/giphy.gif
 
 * **Features**:
 
