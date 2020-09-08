@@ -9,7 +9,7 @@ async function loadMainPrompts() {
         {
             type: "list",
             name: "choice",
-            message: "What would you like to do?",
+            message: "What would you like to view?",
             choices: [
                 {
                     name: "View All Employees",
@@ -125,7 +125,7 @@ async function viewEmployeesByDepartment() {
         {
             type: "list",
             name: "departmentId",
-            message: "Which department would you like to see employees for?",
+            message: "Which department would you like to see?",
             choices: departmentChoices
         }
     ]);
@@ -187,7 +187,7 @@ async function removeEmployee() {
 
     await db.removeEmployee(employeeId);
 
-    console.log("Removed employee from the database");
+    console.log("Removed employee from the database.");
 
     loadMainPrompts();
 }
@@ -227,7 +227,7 @@ async function updateEmployeeRole() {
 
     await db.updateEmployeeRole(employeeId, roleId);
 
-    console.log("Updated employee's role");
+    console.log("Updated employee's role.");
 
     loadMainPrompts();
 }
@@ -268,7 +268,7 @@ async function updateEmployeeManager() {
 
     await db.updateEmployeeManager(employeeId, managerId);
 
-    console.log("Updated employee's manager");
+    console.log("Updated employee's manager.");
 
     loadMainPrompts();
 }
@@ -334,7 +334,7 @@ async function removeRole() {
 
     await db.removeRole(roleId);
 
-    console.log("Removed role from the database");
+    console.log("Removed role from the database.");
 
     loadMainPrompts();
 }
@@ -358,7 +358,7 @@ async function addDepartment() {
 
     await db.createDepartment(department);
 
-    console.log(`Added ${department.name} to the database`);
+    console.log(`Added ${department.name} to the database.`);
 
     loadMainPrompts();
 }
@@ -381,7 +381,7 @@ async function removeDepartment() {
 
     await db.removeDepartment(departmentId);
 
-    console.log(`Removed department from the database`);
+    console.log(`Removed department from the database.`);
 
     loadMainPrompts();
 }
@@ -433,13 +433,13 @@ async function addEmployee() {
     await db.createEmployee(employee);
 
     console.log(
-        `Added ${employee.first_name} ${employee.last_name} to the database`
+        `Added ${employee.first_name} ${employee.last_name} to the database.`
     );
 
     loadMainPrompts();
 }
 
 function quit() {
-    console.log("Goodbye!");
+    console.log("Your session has ended!");
     process.exit();
 }
